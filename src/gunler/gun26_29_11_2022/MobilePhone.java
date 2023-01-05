@@ -1,0 +1,28 @@
+package gunler.gun26_29_11_2022;
+
+public class MobilePhone {
+    String marka;
+    String model;
+    String renk;
+    int fiyat;
+    int hafiza;
+    double ekranBuyuklugu;
+
+    public void arama() {
+        System.out.println("Ariyor...");
+    }
+
+    public void mesajGonder() {
+        System.out.println("Mesaj Gondereliryor....");
+
+    }
+
+    public void fotografCek() {
+        System.out.println("Fotograf Cekiyor...");
+    }
+
+    public void navigasyonaBaglan() {
+        System.out.println("Navigasyona Baglaniyor...");
+    }
+}
+
