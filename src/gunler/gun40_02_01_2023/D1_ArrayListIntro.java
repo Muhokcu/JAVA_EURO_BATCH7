@@ -7,8 +7,8 @@ public class D1_ArrayListIntro {
         // Creating ArrayList
 
         ArrayList<String> nameList = new ArrayList<>();
-        nameList.add("Ahmet ");
         nameList.add("Ayse ");
+        nameList.add("Ahmet ");
         nameList.add("Hasan ");
         nameList.add("Emine ");
         ArrayList<Integer> numbers = new ArrayList<>();
