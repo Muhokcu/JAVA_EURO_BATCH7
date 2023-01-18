@@ -7,9 +7,9 @@ public class String_Length {
         System.out.println(str.length());
         int uzunluk = str.length();
         System.out.println("uzunluk = " + uzunluk);
-        String str2 = "    ";
+        String str2 = "      ";
         System.out.println(str2.length());
-        String str3 = "";
+        String str3 ="";
         System.out.println(str3.length());
 
 
