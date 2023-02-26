@@ -1,0 +1,15 @@
+package gunler.gun67_14_02_2023_OOP_Review.Composition;
+public class DriverTest {
+
+    public static void main(String[] args) {
+
+        Engine engine = new Engine(2000);
+        Car car = new Car(engine, "Toyota", "Corolla");
+        Driver driver = new Driver("John", car);
+
+        System.out.println("Driver name : " + driver.getName());
+        System.out.println("Car make : " + driver.getCar().getMake());
+        System.out.println("Car model : " + driver.getCar().getModel());
+        System.out.println("Engine horse power : " + driver.getCar().getEngine().getHorsePower());
+    }
+}

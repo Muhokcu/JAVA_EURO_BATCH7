@@ -10,5 +10,7 @@ public class BackSlash {
         System.out.println("Ali \"merhaba\"dedi");
         System.out.println("Istanbul");
         System.out.println("\"Merhaba\" = " + "Merhaba");
+        System.out.println("987654321");
+
     }
 }
